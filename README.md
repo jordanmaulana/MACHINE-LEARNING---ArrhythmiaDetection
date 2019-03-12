@@ -37,6 +37,6 @@ The raw data consists of 1 column values which shows the amplitude of ECG signal
   After an input value is detected to be a threshold, the upcoming data is likely to be like a hill, it goes up to top, then goes down. We can write the algorithm like this:
 
   1. Detect present value
-  2. If the value is higher than before, do process 1
+  2. If the value is higher than before, do process i
   3. If the value is lower than before, the previous value is the R point
 
