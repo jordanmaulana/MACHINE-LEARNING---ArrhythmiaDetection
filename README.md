@@ -10,15 +10,15 @@ This research is to prove that Machine Learning can be implemented to detect arr
 
 Training:
 
-1. Bradi: 30, 40, 50 BPM
+1. Bradycardia: 30, 40, 50 BPM
 2. Normal: 60, 70, 80, 90, 100 BPM
-3. Taki: 120, 130, 140, 150 BPM
+3. Tachycardia: 120, 130, 140, 150 BPM
 
 Testing:
 
-1. Bradi: 35, 45, 55 BPM
+1. Bradycardia: 35, 45, 55 BPM
 2. Normal: 65, 75, 85, 95 BPM
-3. Taki: 105, 115, 125, 135, 145 BPM
+3. Tachycardia: 105, 115, 125, 135, 145 BPM
 
 ## How To Do
 
