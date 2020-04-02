@@ -4,14 +4,17 @@ import time
 now = 150
 start = False
 
-foo = open('datatestR.csv','a')
+
+foo = open('datasetR.csv','a')
 
 counter = 0
 start = False
 line = ""
 
 #you have to change the directory below
-with open('C:\\Users\\asus\\Desktop\\data 1 minute\\135.csv','rt') as f:
+#File names that ends with 0 is dataset. You have to change file name (Line 8) to datasetR.csv
+#File names that ends with 5 is datatest. You have to change file name (Line 8) to datatestR.csv
+with open('../dataset/130.csv','rt') as f:
     reader = csv.reader(f)
 
     for row in reader:
