@@ -40,3 +40,16 @@ The raw data consists of 1 column values which shows the amplitude of ECG signal
   2. If the value is higher than before, do process i
   3. If the value is lower than before, the previous value is the R point
 
+
+## How To Run
+
+### Step 1: Preprocess
+1. Open file preproccess.py
+2. See commented line to see how it works
+3. After you run this program for all csv file, in this directory you will see datasetR.csv and datatestR.csv
+
+### Step 2: Editing csv
+In top of your generated csv file, do place this line:
+value,label
+
+### Step 3: Run plotdata.py
